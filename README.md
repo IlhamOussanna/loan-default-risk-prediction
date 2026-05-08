@@ -33,6 +33,7 @@ the CRISP-DM methodology.
 XGBoost outperformed all models across every metric 
 and was selected as the production candidate.
 ![XGBoost ROC Curve](xgboost_roc_curve.png)
+![SHAP plot](SHAP plot.png)
 
 ---
 
