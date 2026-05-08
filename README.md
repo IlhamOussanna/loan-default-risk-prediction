@@ -152,8 +152,5 @@ financial indicators, and loan characteristics
 ## Author
 
 **Ilham Oussanna**  
-Data Analyst | SQL · Python · Power BI · Machine Learning  
-Higher Diploma in Science in Data Analytics — 
-National College of Ireland (2.1 Honours, 2025)  
-Navan, Co. Meath, Ireland  
-[LinkedIn Profile] | [GitHub Profile]
+Data Analyst | SQL · Python · Power BI · Machine Learning     
+🔗 [LinkedIn](https://www.linkedin.com/in/ilham-o-89372a274)
