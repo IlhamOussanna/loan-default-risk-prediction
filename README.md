@@ -1,9 +1,9 @@
 # Loan Default Risk Prediction Using Machine Learning
 
-**Domain:** Financial Services — Credit Risk Assessment  
+**Domain:** Financial Services Credit Risk Assessment  
 **Tools:** Python · XGBoost · SHAP · SMOTE · PCA · Scikit-learn  
-**Dataset:** Lending Club (2007–2018) — 2.2M records · 150+ features  
-**Best Model:** XGBoost — ROC-AUC: 0.99 · Recall: 0.90 · Precision: 0.89  
+**Dataset:** Lending Club (2007–2018) 2.2M records · 150+ features  
+**Best Model:** XGBoost ROC-AUC: 0.99 · Recall: 0.90 · Precision: 0.89  
 
 ---
 
@@ -12,7 +12,7 @@
 Credit default prediction is one of the most critical 
 challenges in financial services. Lenders need to 
 identify high-risk borrowers accurately before issuing 
-loans — minimising losses while maintaining fair and 
+loans minimising losses while maintaining fair and 
 inclusive lending practices.
 
 This project builds an end-to-end machine learning 
@@ -60,12 +60,12 @@ and was selected as the production candidate.
 - Annual income, loan amount, and installment 
   all statistically significant at p < 0.001
 
-**4. Class Imbalance — SMOTE**
+**4. Class Imbalance SMOTE**
 - Applied Synthetic Minority Over-sampling 
   Technique to address 80/20 class split
 - Improved model ability to detect defaulters
 
-**5. Dimensionality Reduction — PCA**
+**5. Dimensionality Reduction PCA**
 - Reduced 873 features to 764
 - Retained 95% of total variance
 - Improved training speed without losing 
@@ -76,7 +76,7 @@ and was selected as the production candidate.
 - Random Forest with GridSearchCV tuning
 - XGBoost with GridSearchCV tuning
 
-**7. Model Interpretability — SHAP**
+**7. Model Interpretability SHAP**
 - Applied SHAP values to XGBoost predictions
 - Identified key drivers: FICO score, 
   last payment amount, loan term
@@ -88,12 +88,12 @@ and was selected as the production candidate.
 ## Key Findings
 
 - High interest rate is the strongest predictor 
-  of default — borrowers paying higher rates 
+  of default borrowers paying higher rates 
   default significantly more often
 - FICO credit score and recent payment behaviour 
   are the most influential features in the model
 - XGBoost with SHAP delivers both high accuracy 
-  and transparent, auditable predictions — 
+  and transparent, auditable predictions 
   suitable for regulated financial environments
 - The pipeline is deployment-ready with 
   serialisation, API, and monitoring architecture 
@@ -142,7 +142,7 @@ to roles in:
 
 ## Dataset
 
-Lending Club Loan Dataset — available on Kaggle  
+Lending Club Loan Dataset available on Kaggle  
 2.2 million loan records from 2007 to 2018  
 150+ features covering borrower demographics, 
 financial indicators, and loan characteristics
